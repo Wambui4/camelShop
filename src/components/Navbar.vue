@@ -1,12 +1,12 @@
 <template>
-    <v-app-bar collapse :elevation="19">
+    <v-app-bar :elevation="9" color="pink">
   <template v-slot:prepend>
     <v-app-bar-nav-icon></v-app-bar-nav-icon>
   </template>
 
 
 
-  <v-app-bar-title>Application Bar</v-app-bar-title>
+  <v-app-bar-title>Camel Shop </v-app-bar-title>
   <v-btn to="/">Home</v-btn>
 
   <v-btn to="/products">Products</v-btn>
